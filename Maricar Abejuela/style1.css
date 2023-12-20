@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient( to bottom,rgb(108, 137, 231),rgb(197, 59, 207), rgb(235, 235, 123));
+  }
+
+  .container-wrapper {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .container2 {
+    width: 30%;
+    padding: 10px;
+    background-image: url('https://images-ng.pixai.art/images/orig/bf855040-bc38-49ea-9092-6fbb72b6f598');
+  }
+
+  .container {
+    width: 30%;
+    padding-left: 1px;
+    margin-left: 10px;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
